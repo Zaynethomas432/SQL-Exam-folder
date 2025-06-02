@@ -53,3 +53,8 @@ while menu_choice != 'Z':
                         'G: All data\n'
                         'Z: Exit\n\n'
                         'Type option here: ')
+    menu_choice = menu_choice.upper()
+    if menu_choice == 'A':
+         print_query('best nvidia')
+         
+
