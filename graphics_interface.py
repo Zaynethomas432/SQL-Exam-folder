@@ -58,5 +58,6 @@ while menu_choice != 'Z':
          print_query('best nvidia')
     if menu_choice == 'B':
          print_query('cheap fast cards')
-                 
+    if menu_choice == 'C':
+         print_query('good cheap cards')                 
 
