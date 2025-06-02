@@ -41,4 +41,15 @@ def print_parameter_query(fields:str, where:str, parameter):
     print(tabulate(results,fields.split(",")))
     db.close()
       
-
+menu_choice = ''
+while menu_choice != 'Z':
+    menu_choice = input('Welcome to the graphics cards database\n\n'
+                        'Type the letter for the information you want:\n'
+                        'A: The best graphics cards by NVIDIA\n'
+                        'B: Cheap but fast graphics cards\n'
+                        'C: Cheap graphics cards that give you the best "bang for your buck"\n'
+                        'D: NVIDIA graphics cards with "Blackwell" architecture\n'
+                        'E: The top 10 best graphics cards, ignoring the price.\n'
+                        'G: All data\n'
+                        'Z: Exit\n\n'
+                        'Type option here: ')
