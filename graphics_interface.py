@@ -62,3 +62,5 @@ while menu_choice != 'Z':
          print_query('good cheap cards')                 
     if menu_choice == 'D':
          print_query('good GB cards')   
+    if menu_choice == 'E':
+         print_query('top 10') 
