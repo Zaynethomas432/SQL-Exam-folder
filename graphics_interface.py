@@ -48,7 +48,7 @@ while menu_choice != 'Z':
                         'A: The best graphics cards by NVIDIA\n'
                         'B: Cheap but fast graphics cards\n'
                         'C: Cheap graphics cards that give you the best "bang for your buck"\n'
-                        'D: NVIDIA graphics cards with "Blackwell" architecture\n'
+                        'D: NVIDIA graphics cards with "Blackwell" architecture that perform the best\n'
                         'E: The top 10 best graphics cards, ignoring the price.\n'
                         'G: All data\n'
                         'Z: Exit\n\n'
@@ -60,4 +60,5 @@ while menu_choice != 'Z':
          print_query('cheap fast cards')
     if menu_choice == 'C':
          print_query('good cheap cards')                 
-
+    if menu_choice == 'D':
+         print_query('good GB cards')   
