@@ -1,7 +1,6 @@
 # Import the libraries to connect to the database and present the information in tables
 import sqlite3
 from tabulate import tabulate
-from easygui import *
 
 # This is the filename of the database to be used
 DB_NAME = 'music_lessons.db'
