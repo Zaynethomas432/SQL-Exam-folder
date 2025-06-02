@@ -50,6 +50,7 @@ while menu_choice != 'Z':
                         'C: Cheap graphics cards that give you the best "bang for your buck"\n'
                         'D: NVIDIA graphics cards with "Blackwell" architecture that perform the best\n'
                         'E: The top 10 best graphics cards, ignoring the price.\n'
+                        'F: All graphics card from a certain company, ordered by the best of that company\n'
                         'G: All data\n'
                         'Z: Exit\n\n'
                         'Type option here: ')
