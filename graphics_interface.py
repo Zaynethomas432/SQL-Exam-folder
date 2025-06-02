@@ -67,4 +67,6 @@ while menu_choice != 'Z':
          print_query('top 10') 
     if menu_choice == 'F':
          company = input("What company's graphics cards do you want to see(NVIDIA, AMD, Intel)? ")
-         print_parameter_query("graph_card, processor, cores, tmus, rops, mem_size_gb, bandwidth_gbs, clock_spd_mhz, boost_spd_mhz, fp32_tflops, price", "manufacturer = ? ORDER BY fp32_tflops DESC",company)  
+         print_parameter_query("graph_card, processor, cores, tmus, rops, mem_size_gb, bandwidth_gbs, clock_spd_mhz, boost_spd_mhz, fp32_tflops, price", "manufacturer = ? ORDER BY fp32_tflops DESC",company)
+    if menu_choice == 'G':
+         print_query('All Data')           
