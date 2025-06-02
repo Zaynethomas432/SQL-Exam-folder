@@ -39,5 +39,6 @@ def print_parameter_query(fields:str, where:str, parameter):
     cursor.execute(sql,(parameter,))
     results = cursor.fetchall()
     print(tabulate(results,fields.split(",")))
-    db.close()  
+    db.close()
+      
 
