@@ -40,8 +40,8 @@ def print_parameter_query(fields:str, where:str, parameter):
     print(tabulate(results,fields.split(",")))
     db.close()
       
-menu_choice = ''
-while menu_choice != 'Z':
+menu_choice = ''# this gets the users input
+while menu_choice != 'Z': # if "Z" is pressed the program will cancel.
     menu_choice = input('Welcome to the graphics cards database\n\n'
                         'Type the letter for the information you want:\n'
                         'A: The best graphics cards by NVIDIA\n'
